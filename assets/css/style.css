@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "OPPOSans-Ver2-Regular";
+
+}
+
+
+.nav-bar{
+    
+    background-color: black;
+    height: 54px;
+    font-size: 15px;
+    z-index: 10;
+    
+}
+
+.some{
+    color: white;
+    border-bottom:2px solid black; 
+    
+    
+    transition: 1s;
+    
+}
+.some:hover{
+    color: white;
+    border-bottom: 2px solid green;
+}
+.navButton{
+    filter: invert(1);
+}
+.nav-item{
+    padding-left: 20px;
+}
+#offcanvasTop1{
+    height: 100vh;
+   
+}
+#offcanvasTop2{
+    height: 100vh;
+   
+}
+
+.iotProductImage{
+    width: 70px;
+    height: 80px;
+    
+}.iotproductdec{
+    font-weight: bold;
+    color: black;
+    font-size: small;
+    margin-top: 10px;
+}
+
+
+
+.iotProductImage-big{
+    
+    width: 200px;
+    height: 300px;
+    
+    transition: .5s;
+    cursor: pointer;
+    
+}
+.iotProductImage-big:hover{
+    
+    transform: scale(1.1);
+}
+.iotproductdec-big{
+    font-weight: bold;
+    color: black;
+    font-size: small;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+.iotproductdec-big span{
+    letter-spacing: 2px;
+    transition: 0.5s;
+
+}
+.iotproductdec-big span:hover{
+    letter-spacing: 10px;
+}
+.main-body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/assets/img/K10_topbanner_2880x1440-2.jpg.thumb.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media(max-width :992px){
+    .main-body{
+        width: 100%;
+        height: 100vh;
+        background-image: url("/assets/img/K10_topbanner_2880x1440-2.jpg.thumb.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+}
+@media(max-width:720px){
+    .main-body{
+        width: 100%;
+        height: 100vh;
+        background-image: url("/assets/img/K10_topbanner_720x1256_mobile.jpg.thumb.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+}
+.phone-details{
+    position: absolute;
+    margin-left: 742px;
+    margin-top: 274px;
+    height: 230px;
+    width: 200px;
+    
+    
+    
+}
+.phone-details-card{
+    background-color: inherit;
+    border: none;
+}
+.phone-details-card-text{
+    font-size: .7rem;
+
+}
+@media(max-width :992px){
+    .phone-details{
+        position: absolute;
+        margin-left: 500px;
+        margin-top: 242px;
+        height: 230px;
+        width: 200px;
+        z-index: 1;
+    }
+}
+@media(max-width:720px){
+    .phone-details{
+        position: absolute;
+        margin-left: 124px;
+        margin-top: 232px;
+        height: 230px;
+        width: 200px;
+        z-index: 1;
+    }
+}
+.text-Recommend{
+    font-weight: 300;
+    margin-top: 30px;
+    
+}
+.recommend-card1{
+    background-color: inherit;
+    width: 100%; 
+    margin-top: 30px;
+    font-size: small;
+    padding-left: 30px;
+    border: none;
+}
+.recommend-card2{
+    width: 75%; 
+    margin-top: 30px;
+    font-size: small;
+    background-color: inherit;
+   
+    margin-left: 30px;
+    border: none;
+}
+.recommend-card3{
+    width: 75%; 
+    background-color: inherit;
+    margin-top: 30px;
+    font-size: small;
+    margin-left: 30px;
+    border: none;
+}
+.recommend-container{
+    
+    background-color: rgb(243, 243, 243);
+}
+.phones{
+    
+  
+    width: 960px;
+    left: 60px;
+    height: 430px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x:scroll ;
+    
+   
+    margin-left: 100px;
+  
+    
+}
+.phones-card{
+    
+    width: 400px;
+    height: 200px;
+   
+    padding-left: 30px;
+}
+.phones-card div{
+    border: none;
+    border-radius: none;
+}
+.phones-head{
+    margin-left: 100px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+.phones-card p{
+    font-size: 0.9rem;
+}
+.phones-card a{
+    text-decoration: underline;
+}
+/* width */
+.phones::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  /* Track */
+.phones::-webkit-scrollbar-track {
+    box-shadow: none; 
+    
+   
+  }
+   
+  /* Handle */
+.phones::-webkit-scrollbar-thumb {
+    background: rgb(165, 165, 165); 
+    border-radius: 10px;
+  
+  }
+  
+  /* Handle on hover */
+.phones::-webkit-scrollbar-thumb:hover {
+    background: rgb(185, 177, 177); 
+  }
+@media(max-width :992px){
+    .phones{
+    
+  
+        width: 640px;
+        
+        height: 430px;
+       
+       
+        margin-left: 70px;
+      
+        
+    }
+    .phones-head{
+        margin-left: 70px;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+      }
+}
+@media(max-width:576px){
+    .phones{
+    
+  
+        width: 320px;
+        
+        height: 430px;
+       
+       
+        margin-left: 20px;
+      
+        
+    }
+    .phones-head{
+        margin-left: 20px;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+      }
+    
+}
+
+.contact{
+    width: 100%;
+    height: 400px;
+    background: rgb(249, 244, 236);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section{
+    width: 600px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section h2{
+    font-size: 36px;
+    line-height: 43px;
+    font-family: "OPPOSans-Ver2-Regular";
+}
+.contact-section p{
+    color: #666;
+    font-size: 1.1rem;
+    font-family: "OPPOSans-Ver2-Regular";
+}
+.contact-inp{
+    
+    display: flex;
+    
+}
+.contact-inp button{
+    height: 50px;
+    width: 25%;
+    background-color: rgb(153, 153, 153);
+    color: white;
+    border: none;
+
+}
+.contact-input{
+    width: 75%;
+    height: 100%;
+    background-color: white;
+   
+}
+.contact-input input{
+    width: 100%;
+    height: 99%;
+    border: none;
+}
+.footer{
+    background-color: #121212;
+    color: rgba(255,255,255,0.6);
+   
+}
+.footer ul li a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.6);
+    font-size: 0.8rem;
+}
+.footer-foot{
+    background-color: #121212;
+    color: rgba(255,255,255,0.6);
+    font-size: 0.8rem;
+}
+
+
+
+
+
