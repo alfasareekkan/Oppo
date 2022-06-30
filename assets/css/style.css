@@ -87,7 +87,7 @@
 .main-body{
     width: 100%;
     height: 100vh;
-    background-image: url("/assets/img/K10_topbanner_2880x1440-2.jpg.thumb.webp");
+    background-image: url("./assets/img/K10_topbanner_2880x1440-2.jpg.thumb.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -96,7 +96,7 @@
     .main-body{
         width: 100%;
         height: 100vh;
-        background-image: url("/assets/img/K10_topbanner_2880x1440-2.jpg.thumb.webp");
+        background-image: url("./assets/img/K10_topbanner_2880x1440-2.jpg.thumb.webp");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -106,7 +106,7 @@
     .main-body{
         width: 100%;
         height: 100vh;
-        background-image: url("/assets/img/K10_topbanner_720x1256_mobile.jpg.thumb.webp");
+        background-image: url("./assets/img/K10_topbanner_720x1256_mobile.jpg.thumb.webp");
         background-size: cover;
         background-repeat: no-repeat;
     }
